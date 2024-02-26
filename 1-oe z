@@ -1,0 +1,5 @@
+import csv
+file=open('products.csv')
+data=file.read.split('\n')
+productsnew=open('products_new.csv','w')
+writer=csv.writer(productsnew)
